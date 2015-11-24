@@ -176,11 +176,6 @@ Time to start downloading and installing the mods. You'll be doing this through 
 4. [Skyforge Plus](http://www.nexusmods.com/skyrim/mods/54544/?)
 5. [BreezeHome Fully Upgradable](http://www.nexusmods.com/skyrim/mods/11158/?)
 
-
-####To order
-1. [Campfire](http://www.nexusmods.com/skyrim/mods/64798/?)
-2. [Frostfall](http://www.nexusmods.com/skyrim/mods/11163/?)
-
 ### Meshes
 1. [Ruins Clutter Improved](http://www.nexusmods.com/skyrim/mods/14227/?)
 2. [Static Mesh Improvements Mod](http://www.nexusmods.com/skyrim/mods/8655/?)
@@ -309,6 +304,8 @@ TODO: Add infos. Eg. Install the SoS patches for Cot.
 9. [Realistic Needs and Disease](http://www.nexusmods.com/skyrim/mods/26228/?) OR [iNeed](http://www.nexusmods.com/skyrim/mods/51473/?)
 10. [Sneak Tools](http://www.nexusmods.com/skyrim/mods/19447/?)
 11. [Wearable Lanterns](http://www.nexusmods.com/skyrim/mods/17416/?)
+12. [Campfire](http://www.nexusmods.com/skyrim/mods/64798/?)
+13. [Frostfall](http://www.nexusmods.com/skyrim/mods/11163/?)
 
 ### Combat and Difficulty mods
 1. [Combat Evolved](http://www.nexusmods.com/skyrim/mods/56147/?)
