@@ -18,7 +18,7 @@ I'm not going to explain how to use MO, just what to do with it (maybe I will la
 
 1. Add LOOT and SKSE (if not already present) as executables.
 Always launch the game through MO selecting SKSE.
-
+2. Set MO to manage archives.
 
 ## Memory Management
 Create the file skse.ini in Skyrim/Data/SKSE or in ModOrganizer/overwrite/SKSE and copy the following content:
@@ -34,6 +34,16 @@ Create the file skse.ini in Skyrim/Data/SKSE or in ModOrganizer/overwrite/SKSE a
 
 If the system RAM is 4GB or less you may want to use [Memory Blocks Log](http://www.nexusmods.com/skyrim/mods/50471/?) to find the lowest values for the *Initial Heap Block* and the *ScrapHeapSize*
 
+Open the Skyrim.ini (from MO) and add these lines:
+
+>[General]  
+>uExterior Cell Buffer=(X+1)²  
+>uInterior Cell Buffer=(X+1)²/2  
+>uGridsToLoad=X
+
+X must be an odd value greater than 1 (7 is default). The greater the value the greater the distance at which objects are loaded, thus more RAM and CPU usage and longer loading times. The values for the exterior and interior cell buffers refers to the suggested minimum, so you're free to use greater values.
+If you intend to use a value greater than 13, I suggest the use of [Stable uGridsToLoad](http://www.nexusmods.com/skyrim/mods/41592/?). Install this after the unofficial patches.
+
 ## ENBoost
 
 The ENB can be set to only use *enbhost.exe* to manage the dynamic memory allocation without applying any graphical effect. This is recommended as Skyrim will likely go out of memory with a lot of mods installed.
@@ -43,7 +53,7 @@ If you're going to use an ENB, skip this section, it will be taken care of later
 >UsePatchSpeedhackWithoutGraphics=true  
 >
 >[MEMORY]  
->ExpandSystemMemoryX64=true  
+>ExpandSystemMemoryX64=false  
 >ReduceSystemMemoryUsage=true
 
 Now set the *ReservedMemorySize* and *VideoMemorySize* following this [guide](http://wiki.step-project.com/Guide:ENBlocal_INI/Memory)
@@ -70,6 +80,7 @@ Time to start downloading and installing the mods. You'll be doing this through 
 4. [A Quality World Map](http://www.nexusmods.com/skyrim/mods/4929/?)
 5. [A Matter Of Time](http://www.nexusmods.com/skyrim/mods/44091/?)
 6. [ASIS Patcher](http://www.nexusmods.com/skyrim/mods/18436/?)
+6. [ASIS Improved INIs](http://www.nexusmods.com/skyrim/mods/53047/?)
 7. [Better Dialogue Controls](http://www.nexusmods.com/skyrim/mods/27371/?)
 8. [Better Message Box Controls](http://www.nexusmods.com/skyrim/mods/28170/?)
 9. [Dual Sheat Redux](http://www.nexusmods.com/skyrim/mods/34155/?)
@@ -99,7 +110,7 @@ Time to start downloading and installing the mods. You'll be doing this through 
 33. [Clothing and Clutter Fixes](http://www.nexusmods.com/skyrim/mods/43053/?)
 34. [Complete Crafting Overhaul](http://www.nexusmods.com/skyrim/mods/49791/?)
 35. [Acquisitive Soul Gems](http://www.nexusmods.com/skyrim/mods/5312/?)
-36. [Think TO Yourself Messages](http://www.nexusmods.com/skyrim/mods/32060/?)
+36. [Think To Yourself Messages](http://www.nexusmods.com/skyrim/mods/32060/?)
 
 ##### Extra
 1. [Marriable Serana](http://www.nexusmods.com/skyrim/mods/28685/?)
@@ -120,15 +131,18 @@ Time to start downloading and installing the mods. You'll be doing this through 
 7. [Superior Lore Friendly Hair](http://www.nexusmods.com/skyrim/mods/36510/?)
 8. [SG Female Eyebrows](http://www.nexusmods.com/skyrim/mods/35327/?)
 9. [Brows](http://www.nexusmods.com/skyrim/mods/30411/?)
+9. [Beards](http://www.nexusmods.com/skyrim/mods/28363/?)
 10. [The Eyes of Beauty](http://www.nexusmods.com/skyrim/mods/13722/?)
 11. [Better Vampires Fangs and Eyes](http://www.nexusmods.com/skyrim/mods/38829/?)
 12. [No More Blocky Faces](http://www.nexusmods.com/skyrim/mods/30/?)
 13. [Detailed Faces](http://www.nexusmods.com/skyrim/mods/26/?)
-14. [Better Females By Bella](http://www.nexusmods.com/skyrim/mods/2812/?)
-15. [Better Females By Bella - Natural Edition](http://www.nexusmods.com/skyrim/mods/26113/?)
+14. [Better Females By Bella](http://www.nexusmods.com/skyrim/mods/2812/?) OR [Better Females By Bella - Natural Edition](http://www.nexusmods.com/skyrim/mods/26113/?)
 16. [Smile in HD](http://www.nexusmods.com/skyrim/mods/34346/?)
 17. [Better Makeup for SKSE](http://www.nexusmods.com/skyrim/mods/31665/?)
 18. [No More Ugly Bronze Shiny](http://www.nexusmods.com/skyrim/mods/71054/?)
+
+##### Extra
+1. [SG Female Textures Renewal](http://www.nexusmods.com/skyrim/mods/35267/?)
 
 ### NPCs
 1. [Bijin Warmaidens](http://www.nexusmods.com/skyrim/mods/40038/?)
@@ -185,7 +199,6 @@ Time to start downloading and installing the mods. You'll be doing this through 
 
 
 #### Textures
-Let's start with the textures. You won't need to adjust their order, so it's probably best to install them before anything else. A lot of them will come in different resolutions, it's up to you (depending on your hardware) to decide what version to download. With 2GB of VRAM it'd be better to stand with 1K or at most 2K.
 
 1. [Skyrim HD 2K](http://www.nexusmods.com/skyrim/mods/607/?)
 2. [SkyRealism - Shiny](http://www.nexusmods.com/skyrim/mods/48526/?)
@@ -224,6 +237,7 @@ Let's start with the textures. You won't need to adjust their order, so it's pro
 9. [Rustic Clothing](http://www.nexusmods.com/skyrim/mods/69784/?)
 10. [Night Mother HD](http://www.nexusmods.com/skyrim/mods/4947/?)
 11. [The Notice Board Retexture](http://www.nexusmods.com/skyrim/mods/70260/?)
+12. [Book Covers Skyrim](http://www.nexusmods.com/skyrim/mods/35399/?)
 
 ###### Parallax
 1. [Tamriel Reloaded](http://www.nexusmods.com/skyrim/mods/46925/?)
@@ -256,6 +270,7 @@ Let's start with the textures. You won't need to adjust their order, so it's pro
 
 ### Weather
 TODO: Add detailed descriptions on the installation of these mods
+
 1. [Climates of Tamriel v3.1](http://www.nexusmods.com/skyrim/mods/17802/?)
 2. [Expanded Snow System](http://www.nexusmods.com/skyrim/mods/28110/?)
 3. [Supreme and Volumetric Fog](http://www.nexusmods.com/skyrim/mods/24460/?)
@@ -263,11 +278,14 @@ TODO: Add detailed descriptions on the installation of these mods
 5. [Climates of Tamriel - Weather Patch](http://www.nexusmods.com/skyrim/mods/39799/?)
 6. [Realistic Nights](http://www.nexusmods.com/skyrim/mods/49472/?)
 
+##### Extra
+1. [Realistic Sun](http://www.nexusmods.com/skyrim/mods/42492/?)
+
 ### Visual and Graphics
 1. [Smoking Torches and Candles](http://www.nexusmods.com/skyrim/mods/35819/?)
 2. [Better Torches](http://www.nexusmods.com/skyrim/mods/27443/?)
 3. [Wet And Cold](http://www.nexusmods.com/skyrim/mods/27563/?)
-4. [Enhanced Lights and FX](http://www.nexusmods.com/skyrim/mods/27043/?) OR [Realistic Lighting Overhaul](http://www.nexusmods.com/skyrim/mods/30450/?)
+4. [Enhanced Lights and FX](http://www.nexusmods.com/skyrim/mods/27043/?) OR [Realistic Lighting Overhaul](http://www.nexusmods.com/skyrim/mods/30450/?) OR [Enhanced Lighting for ENB](http://www.nexusmods.com/skyrim/mods/59733/?) + [Relighting Skyrim](http://www.nexusmods.com/skyrim/mods/17609/?)
 
 ### Visual and Performance Fixes
 1. [Skyrim Performance Plus](http://www.nexusmods.com/skyrim/mods/6387/?)
@@ -278,6 +296,7 @@ TODO: Add detailed descriptions on the installation of these mods
 
 ### Sound
 TODO: Add infos. Eg. Install the SoS patches for Cot.
+
 1. [SoS - The Wilds](http://www.nexusmods.com/skyrim/mods/10886/?)
 2. [SoS - The Dungeons](http://www.nexusmods.com/skyrim/mods/8601/?)
 3. [SoS - Civilization](http://www.nexusmods.com/skyrim/mods/20193/?)
@@ -312,6 +331,15 @@ TODO: Add infos. Eg. Install the SoS patches for Cot.
 2. [Duel Combat Realism](http://www.nexusmods.com/skyrim/mods/2700/?)
 3. [Revenge of the Enemies](http://www.nexusmods.com/skyrim/mods/40491/?)
 
+There are different choices for a perk overhaul mod:
++ SPERG
++ T3nd0's Skyrim Redone
++ T3nd0's Perkus Maximus
++ Requiem
++ Ordinator
+
+This *modpack* uses **Ordinator** by ***EnaiSiaion***
+
 ### Perks and Magic
 1. [Spectraverse](http://www.nexusmods.com/skyrim/mods/53780/?)
 2. [Dwemertech](http://www.nexusmods.com/skyrim/mods/56037/?)
@@ -328,3 +356,68 @@ TODO: Add infos. Eg. Install the SoS patches for Cot.
 13. [Forgotten Magic Redone](http://www.nexusmods.com/skyrim/mods/35339/?)
 
 ## ENB
+
+>ENBSeries is 3d graphic modification for games...It work by modifying render functions calls of the games and applying additional effects.
+
+From [enbdev.com](http://enbdev.com/) you can download the base software, while on the Nexus you will find a lot of presets. Here is all about tastes.
+
+My choice, to use with CoT and ELFX or RLO, is [True Vision ENB](http://www.nexusmods.com/skyrim/mods/15983/?).  
+Look at [these](https://www.youtube.com/watch?v=xSY52G8ggYM&list=LLM2HCq9mb6phY5yBYHZcwVQ&index=2) [videos](https://www.youtube.com/watch?v=ss_DFC2CSpQ&list=LLM2HCq9mb6phY5yBYHZcwVQ&index=1) to get an idea.
+
+I suggest to read the ENB preset page of your choice; anyway these are the common steps:
+1. Download the proper ENB version from [enbdev](http://enbdev.com/)
+2. Copy the *d3d9.dll* and *enbhost.exe* from the *Wrapper Version* folder inside the Skyrim folder (where you find the launcher and executable)
+3. Add the mod in MO, in case it comes with various fixes.
+4. Copy the presets files inside the Skyrim folder.
+5. Modify **enblocal.ini** to properly set the memory values ([here](http://wiki.step-project.com/Guide:ENBlocal_INI) you can find an in-depth explanation of every setting)
+6. Make sure you have these settings in the INIs
+
+**Skyrim.ini**  
+If you use VSync
+>[Display]  
+>iPresentInterval=1
+
+**Skyrimprefs.ini**  
+>[Display]  
+>bFloatPointRenderTarget=1  
+>bDrawLandShadows=1  
+>bTreesReceiveShadows=1  
+>bShadowOnGrass=1  
+>iMultiSample=0  
+>iMaxAnisotropy=1  
+>bFXAAEnabled=0
+
+Remember to check the in-game brightness. You'll probably need to lower it down.
+
+## Finalization
+These tools has to be launched though MO, so you must add them as executable. This is done by right-clicking the files (you find in the *Data* tab) and selecting *Add as Executable*
+
+1. For FNIS (and related mods) : tools/GenerateFNIS_for_Users/*GenerateFNISforUsers.exe*  
+2. Dual Sheat Redux : SkyProcPatchers/DualSheatReduxPatch/Dual Sheat Redux Patch.jar  
+3. ASIS : SkyProcPatchers/ASIS/ASIS.jar
+
+## INI Settings
+**Skyrim.ini**  
+
+To skip the intro sequence:
+>[General]  
+> sIntroSequence=1
+
+*Skyrim Flora Overhaul* and grass mods  
+Increase *iMinGrassSize* for extra performance (100), lower it to get higher grass density (60)
+
+>[Grass]  
+>bAllowCreateGrass=1  
+>bAllowLoadGrass=0  
+>iMaxGrassTypesPerTexure=15  
+>iMinGrassSize=70
+
+**Skyrimprefs.ini**
+
+Set to 0 to get clear water
+>[Imagespace]  
+>bDoDepthOfField=1
+
+---
+For a greater understanding of skyrim settings, read [this](http://wiki.step-project.com/Guide:Skyrim_Configuration_Settings).
+You may want to set higher values for shadow resolution, rendering distance etc...
