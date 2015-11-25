@@ -35,16 +35,6 @@ Create the file skse.ini in Skyrim/Data/SKSE or in ModOrganizer/overwrite/SKSE a
 
 If the system RAM is 4GB or less you may want to use [Memory Blocks Log](http://www.nexusmods.com/skyrim/mods/50471/?) to find the lowest values for the *Initial Heap Block* and the *ScrapHeapSize*
 
-Open the Skyrim.ini (from MO) and add these lines:
-
->[General]  
->uExterior Cell Buffer=(X+1)²  
->uInterior Cell Buffer=(X+1)²/2  
->uGridsToLoad=X
-
-X must be an odd value greater than 1 (7 is default). The greater the value the greater the distance at which objects are loaded, thus more RAM and CPU usage and longer loading times. The values for the exterior and interior cell buffers refers to the suggested minimum, so you're free to use greater values.
-If you intend to use a value greater than 13, I suggest the use of [Stable uGridsToLoad](http://www.nexusmods.com/skyrim/mods/41592/?). Install this after the unofficial patches.
-
 ## ENBoost
 
 The ENB can be set to only use *enbhost.exe* to manage the dynamic memory allocation without applying any graphical effect. This is recommended as Skyrim will likely go out of memory with a lot of mods installed.
@@ -227,6 +217,7 @@ Time to start downloading and installing the mods. You'll be doing this through 
 23. [Detailed Rugs](http://www.nexusmods.com/skyrim/mods/29608/?) OR [RUGNAROK](http://www.nexusmods.com/skyrim/mods/64830/?)
 24. [Ultimate HD Fire Effect](http://www.nexusmods.com/skyrim/mods/28642/?) OR [Cinematic Fire Effect](http://www.nexusmods.com/skyrim/mods/2692/?)
 25. [Realistic Smoke And Embers](http://www.nexusmods.com/skyrim/mods/836/?)
+26. [Embers HD](http://www.nexusmods.com/skyrim/mods/62425/?)
 
 ##### Extra
 1. [Footprints](http://www.nexusmods.com/skyrim/mods/22745/?)
@@ -242,6 +233,7 @@ Time to start downloading and installing the mods. You'll be doing this through 
 11. [The Notice Board Retexture](http://www.nexusmods.com/skyrim/mods/70260/?)
 12. [Book Covers Skyrim](http://www.nexusmods.com/skyrim/mods/35399/?)
 13. [HiRes Legible Road Signs](http://www.nexusmods.com/skyrim/mods/436/?)
+14. [Ultra HD Firewood](http://www.nexusmods.com/skyrim/mods/71267/?)
 
 ###### Extra Parallax Textures
 1. [Tamriel Reloaded](http://www.nexusmods.com/skyrim/mods/46925/?)
@@ -382,7 +374,7 @@ I suggest you to read the ENB preset page of your choice and follow the installa
 3. Add the mod in MO, it may come with various fixes.
 4. Copy the presets files inside the Skyrim folder.
 5. Modify **enblocal.ini** to properly set the memory values ([here](http://wiki.step-project.com/Guide:ENBlocal_INI) you can find an in-depth explanation of every setting)
-6. Install (always through MO) [these fixes](http://enbseries.enbdev.com/forum/viewtopic.php?f=6&t=1499)
+6. Install (always through MO) [these fixes](http://enbseries.enbdev.com/forum/viewtopic.php?f=6&t=1499) (the first 4 are mandatory)
 7. Make sure you have these settings in the INIs
 
 **Skyrim.ini**  
@@ -425,6 +417,23 @@ Increase *iMinGrassSize* for extra performance (100), lower it to get higher gra
 >bAllowLoadGrass=0  
 >iMaxGrassTypesPerTexure=15  
 >iMinGrassSize=70
+
+Now you have to set the uGridsToLoad setting that represents the radius inside of which all the objects will be loaded.
+
+>[General]  
+>uExterior Cell Buffer=(X+1)²  
+>uInterior Cell Buffer=(X+1)²/2  
+>uGridsToLoad=X
+
+X must be an odd value greater than 1 (7 is default). The greater the value the greater the distance at which objects are loaded, thus more RAM and CPU usage and longer loading times. The values for the exterior and interior cell buffers refers to the suggested minimum, so you're free to use greater values.
+If you intend to use a value greater than 11, I suggest the use of [Stable uGridsToLoad](http://www.nexusmods.com/skyrim/mods/41592/?). Install this after the unofficial patches.  
+Take in mind that you can freely increase it, but if you decrease it and try to load a game saved with a greater value, the client will crash.
+In that case, you should set the value to the that in use when the savegame was created. Load the game, open the console and type:
+>setini "uGridsToLoad:new_lower_value"  
+>saveini  
+>refreshini  
+
+Then save the game.
 
 **Skyrimprefs.ini**
 
