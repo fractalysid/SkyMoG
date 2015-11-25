@@ -1,6 +1,7 @@
 # Skyrim Modding Guide
 
-Well, there won't be a lot of explanations here. Just an ordered (not always) list of mods and a few instructions on how to install them correctly. There will be links, so if you're curious, just click them and quench your thirst for knowledge.
+Welcome to my personal modding guide. It is divided in sections and every modification and or installation must be performed following this order.
+For the gameplay overhauls, this is centered around the use of [***EnaiSiaion***](http://www.nexusmods.com/skyrim/users/3959191/?) mods (remember to give him a kudo!). With a few changes and additions, it can be adapted to Perkus Maximus and Requiem.
 
 ##### Prerequisites
 1. RAM >= 4GB
@@ -8,7 +9,7 @@ Well, there won't be a lot of explanations here. Just an ordered (not always) li
 3. HDD space available >= 60 GB (14 GB Skyrim, 20+-GB Compressed Mods, 35+-GB Installed Mods)
 
 ## First Steps
-1. Download Skyrim from Steam; English language would be better (it makes sure not to come across translation related bugs).
+1. Download Skyrim from Steam(Legendary Edition); English language would be better (it makes sure not to come across translation related bugs).
 2. Download and install the latest version of [SKSE](http://skse.silverlock.org/)
 3. Download and install [LOOT](https://loot.github.io/)
 4. Time to get the Mod Manager [MO](http://www.nexusmods.com/skyrim/mods/1334/?)
@@ -68,7 +69,7 @@ You may want to install these optional tools for troobleshooting (read the guide
 
 ## Mods
 
-Time to start downloading and installing the mods. You'll be doing this through MO with just a few exceptions.
+Time to start downloading and installing the mods. You'll be doing this through MO with just a few exceptions. And remember to endorse the mods you like!!!
 
 ### Unoffical Patches
 1. [USLEEP](http://www.nexusmods.com/skyrim/mods/71214/?)
@@ -120,6 +121,8 @@ Time to start downloading and installing the mods. You'll be doing this through 
 5. [FNIS](http://www.nexusmods.com/skyrim/mods/11811/?)
 6. [FNIS Sexy Moves](http://www.nexusmods.com/skyrim/mods/54521/?)
 7. [FNIS PCEA2](http://www.nexusmods.com/skyrim/mods/71055/?)
+8. [Real Shelter](http://www.nexusmods.com/skyrim/mods/52612/?)
+9. [Immersive HUD](http://www.nexusmods.com/skyrim/mods/3222/?)
 
 ### Character Creation
 1. [Race Menu](http://www.nexusmods.com/skyrim/mods/29624/?)
@@ -221,7 +224,7 @@ Time to start downloading and installing the mods. You'll be doing this through 
 20. [Ultimate HD Torch](http://www.nexusmods.com/skyrim/mods/28060/?)
 21. [Unique Dragon Priests Masks](http://www.nexusmods.com/skyrim/mods/35117/?)
 22. [Dust Effects](http://www.nexusmods.com/skyrim/mods/44201/?)
-23. [Detailed Rugs](http://www.nexusmods.com/skyrim/mods/29608/?)
+23. [Detailed Rugs](http://www.nexusmods.com/skyrim/mods/29608/?) OR [RUGNAROK](http://www.nexusmods.com/skyrim/mods/64830/?)
 24. [Ultimate HD Fire Effect](http://www.nexusmods.com/skyrim/mods/28642/?) OR [Cinematic Fire Effect](http://www.nexusmods.com/skyrim/mods/2692/?)
 25. [Realistic Smoke And Embers](http://www.nexusmods.com/skyrim/mods/836/?)
 
@@ -238,8 +241,9 @@ Time to start downloading and installing the mods. You'll be doing this through 
 10. [Night Mother HD](http://www.nexusmods.com/skyrim/mods/4947/?)
 11. [The Notice Board Retexture](http://www.nexusmods.com/skyrim/mods/70260/?)
 12. [Book Covers Skyrim](http://www.nexusmods.com/skyrim/mods/35399/?)
+13. [HiRes Legible Road Signs](http://www.nexusmods.com/skyrim/mods/436/?)
 
-###### Parallax
+###### Extra Parallax Textures
 1. [Tamriel Reloaded](http://www.nexusmods.com/skyrim/mods/46925/?)
 2. [Project Parallax Remastered](http://www.nexusmods.com/skyrim/mods/40512/?)
 3. [4K Parallax Treebark](http://www.nexusmods.com/skyrim/mods/61875/?)
@@ -258,8 +262,7 @@ Time to start downloading and installing the mods. You'll be doing this through 
 2. [Verdant Grass Plugin](http://www.nexusmods.com/skyrim/mods/60220/?) OR [Grass On Steroids](http://www.nexusmods.com/skyrim/mods/33582/?) OR [Grass Field](http://www.nexusmods.com/skyrim/mods/50875/?)
 3. [Skyfalls and Skymills](http://www.nexusmods.com/skyrim/mods/40564/?)
 4. [Lanterns of Skyrim](http://www.nexusmods.com/skyrim/mods/18916/?)
-5. [Wonders of Weather](http://www.nexusmods.com/skyrim/mods/64941/?)
-6. [Pure Waters](http://www.nexusmods.com/skyrim/mods/1111/?)
+5. [Pure Waters](http://www.nexusmods.com/skyrim/mods/1111/?)
 
 ### Cities
 1. [TaVE Whiterun](http://www.nexusmods.com/skyrim/mods/19799/?)
@@ -277,6 +280,7 @@ TODO: Add detailed descriptions on the installation of these mods
 4. [Supreme Storms](http://www.nexusmods.com/skyrim/mods/27022/?)
 5. [Climates of Tamriel - Weather Patch](http://www.nexusmods.com/skyrim/mods/39799/?)
 6. [Realistic Nights](http://www.nexusmods.com/skyrim/mods/49472/?)
+7. [Wonders of Weather](http://www.nexusmods.com/skyrim/mods/64941/?)
 
 ##### Extra
 1. [Realistic Sun](http://www.nexusmods.com/skyrim/mods/42492/?)
@@ -292,39 +296,44 @@ TODO: Add detailed descriptions on the installation of these mods
 2. [Remove Underwater Grass](http://www.nexusmods.com/skyrim/mods/55240/?)
 3. [Distant Decal Fix](http://www.nexusmods.com/skyrim/mods/32426/?)
 4. [Revamped Exterior Fog](http://www.nexusmods.com/skyrim/mods/9930/?)
-5. [Skyrim Projext Optimization](http://www.nexusmods.com/skyrim/mods/32505/?)
+5. [Skyrim Project Optimization](http://www.nexusmods.com/skyrim/mods/32505/?)
 
 ### Sound
-TODO: Add infos. Eg. Install the SoS patches for Cot.
+if you install *Audio Overhaul for Skyrim*, skip the rest.
 
+1. [Audio Overhaul for Skyrim](http://www.nexusmods.com/skyrim/mods/43773/?)  
+OR  
 1. [SoS - The Wilds](http://www.nexusmods.com/skyrim/mods/10886/?)
 2. [SoS - The Dungeons](http://www.nexusmods.com/skyrim/mods/8601/?)
 3. [SoS - Civilization](http://www.nexusmods.com/skyrim/mods/20193/?)
-4. [Audio Overhaul for Skyrim](http://www.nexusmods.com/skyrim/mods/43773/?)
-5. [Immersive Sounds - Compendium](http://www.nexusmods.com/skyrim/mods/54387/?)
+4. [Improved Combat Sounds](http://www.nexusmods.com/skyrim/mods/5289/?) OR [Immersive Sounds - Compendium](http://www.nexusmods.com/skyrim/mods/54387/?)
 6. [Better Animals Footsteps](http://www.nexusmods.com/skyrim/mods/24805/?)
 7. [Hearth of the Beast - WereWolves Sounds and Textures](http://www.nexusmods.com/skyrim/mods/13779/?)
 
 ##### Extra
 1. [Fantasy Soundtrack Project](http://www.nexusmods.com/skyrim/mods/46518/?)
 2. [Celtic Music in Skyrim](http://www.nexusmods.com/skyrim/mods/53689/?)
+3. [Ultra Realistic Bow Sounds](http://www.nexusmods.com/skyrim/mods/27208/?)
 
 ## Gameplay
 
 ### Miscellaneous
 1. [More Dragon Loot](http://www.nexusmods.com/skyrim/mods/10050/?)
-2. [OBIS](http://www.nexusmods.com/skyrim/mods/31264/?)
-3. [WarZones 2015](http://www.nexusmods.com/skyrim/mods/9494/?)
 4. [Realistic Room Rental](http://www.nexusmods.com/skyrim/mods/25029/?)
-5. [Trade and Barter](http://www.nexusmods.com/skyrim/mods/34612/?)
-6. [Hunting in Skyrim](http://www.nexusmods.com/skyrim/mods/18866/?)
-7. [The Hunting Game](http://www.nexusmods.com/skyrim/mods/45724/?)
-8. [Hunterborn](http://www.nexusmods.com/skyrim/mods/33201/?)
+5. [Trade and Barter](http://www.nexusmods.com/skyrim/mods/34612/?) OR [Dynamic Merchants](http://www.nexusmods.com/skyrim/mods/8502/?)
 9. [Realistic Needs and Disease](http://www.nexusmods.com/skyrim/mods/26228/?) OR [iNeed](http://www.nexusmods.com/skyrim/mods/51473/?)
 10. [Sneak Tools](http://www.nexusmods.com/skyrim/mods/19447/?)
 11. [Wearable Lanterns](http://www.nexusmods.com/skyrim/mods/17416/?)
 12. [Campfire](http://www.nexusmods.com/skyrim/mods/64798/?)
 13. [Frostfall](http://www.nexusmods.com/skyrim/mods/11163/?)
+
+##### Extra
+1. [Hunting in Skyrim](http://www.nexusmods.com/skyrim/mods/18866/?)
+2. [The Hunting Game](http://www.nexusmods.com/skyrim/mods/45724/?)
+3. [Hunterborn](http://www.nexusmods.com/skyrim/mods/33201/?)
+4. [Better Vampires](http://www.nexusmods.com/skyrim/mods/9717/?)
+5. [OBIS](http://www.nexusmods.com/skyrim/mods/31264/?)
+6. [WarZones 2015](http://www.nexusmods.com/skyrim/mods/9494/?) OR [Immersive Patrols](http://www.nexusmods.com/skyrim/mods/12977/?)
 
 ### Combat and Difficulty mods
 1. [Combat Evolved](http://www.nexusmods.com/skyrim/mods/56147/?)
@@ -337,6 +346,7 @@ There are different choices for a perk overhaul mod:
 + T3nd0's Perkus Maximus
 + Requiem
 + Ordinator
++ ...
 
 This *modpack* uses **Ordinator** by ***EnaiSiaion***
 
@@ -359,18 +369,21 @@ This *modpack* uses **Ordinator** by ***EnaiSiaion***
 
 >ENBSeries is 3d graphic modification for games...It work by modifying render functions calls of the games and applying additional effects.
 
-From [enbdev.com](http://enbdev.com/) you can download the base software, while on the Nexus you will find a lot of presets. Here is all about tastes.
+From [enbdev.com](http://enbdev.com/) you can download the base software, while on the Nexus you will find the user's presets.
 
-My choice, to use with CoT and ELFX or RLO, is [True Vision ENB](http://www.nexusmods.com/skyrim/mods/15983/?).  
+Here is all about tastes. My choice, to use with CoT and ELFX or RLO, is [True Vision ENB](http://www.nexusmods.com/skyrim/mods/15983/?), but it is not really performance friendly (it also makes use of SweetFX).  
 Look at [these](https://www.youtube.com/watch?v=xSY52G8ggYM&list=LLM2HCq9mb6phY5yBYHZcwVQ&index=2) [videos](https://www.youtube.com/watch?v=ss_DFC2CSpQ&list=LLM2HCq9mb6phY5yBYHZcwVQ&index=1) to get an idea.
 
-I suggest to read the ENB preset page of your choice; anyway these are the common steps:
+Nexus [ENB Presets](http://www.nexusmods.com/skyrim/mods/searchresults/?src_cat=97). A few presets are in [this](http://www.nexusmods.com/skyrim/mods/searchresults/?src_cat=62) category.
+
+I suggest you to read the ENB preset page of your choice and follow the installation guide; anyway these are the common steps:
 1. Download the proper ENB version from [enbdev](http://enbdev.com/)
 2. Copy the *d3d9.dll* and *enbhost.exe* from the *Wrapper Version* folder inside the Skyrim folder (where you find the launcher and executable)
-3. Add the mod in MO, in case it comes with various fixes.
+3. Add the mod in MO, it may come with various fixes.
 4. Copy the presets files inside the Skyrim folder.
 5. Modify **enblocal.ini** to properly set the memory values ([here](http://wiki.step-project.com/Guide:ENBlocal_INI) you can find an in-depth explanation of every setting)
-6. Make sure you have these settings in the INIs
+6. Install (always through MO) [these fixes](http://enbseries.enbdev.com/forum/viewtopic.php?f=6&t=1499)
+7. Make sure you have these settings in the INIs
 
 **Skyrim.ini**  
 If you use VSync
@@ -392,9 +405,10 @@ Remember to check the in-game brightness. You'll probably need to lower it down.
 ## Finalization
 These tools has to be launched though MO, so you must add them as executable. This is done by right-clicking the files (you find in the *Data* tab) and selecting *Add as Executable*
 
-1. For FNIS (and related mods) : tools/GenerateFNIS_for_Users/*GenerateFNISforUsers.exe*  
-2. Dual Sheat Redux : SkyProcPatchers/DualSheatReduxPatch/Dual Sheat Redux Patch.jar  
-3. ASIS : SkyProcPatchers/ASIS/ASIS.jar
+1. FNIS (and related mods) : tools/GenerateFNIS_for_Users/*GenerateFNISforUsers.exe*  
+2. LOOT
+3. Dual Sheat Redux : SkyProcPatchers/DualSheatReduxPatch/Dual Sheat Redux Patch.jar  
+4. ASIS : SkyProcPatchers/ASIS/ASIS.jar
 
 ## INI Settings
 **Skyrim.ini**  
@@ -421,3 +435,7 @@ Set to 0 to get clear water
 ---
 For a greater understanding of skyrim settings, read [this](http://wiki.step-project.com/Guide:Skyrim_Configuration_Settings).
 You may want to set higher values for shadow resolution, rendering distance etc...
+
+## The Game
+If taking the vanilla start, configure all the mods through the in-game MCM Menu after you enter the fort with Hadvar or Ralof.
+For every other start, as soon as you leave the initial cell.
