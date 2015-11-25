@@ -3,13 +3,14 @@
 Welcome to my personal modding guide. It is divided in sections and every modification and or installation must be performed following this order.
 For the gameplay overhauls, this is centered around the use of [***EnaiSiaion***](http://www.nexusmods.com/skyrim/users/3959191/?) mods (remember to give him a kudo!). With a few changes and additions, it can be adapted to Perkus Maximus and Requiem.
 
-##### Prerequisites
+## Prerequisites
 1. RAM >= 4GB
 2. VRAM >= 2GB
 3. HDD space available >= 60 GB (14 GB Skyrim, 20+-GB Compressed Mods, 35+-GB Installed Mods)
+4. An original copy of TESV: Skyrim Legendary Edition
 
 ## First Steps
-1. Download Skyrim from Steam(Legendary Edition); English language would be better (it makes sure not to come across translation related bugs).
+1. Download Skyrim from Steam; English language would be better (it makes sure not to come across translation related bugs).
 2. Download and install the latest version of [SKSE](http://skse.silverlock.org/)
 3. Download and install [LOOT](https://loot.github.io/)
 4. Time to get the Mod Manager [MO](http://www.nexusmods.com/skyrim/mods/1334/?)
@@ -23,14 +24,11 @@ Always launch the game through MO selecting SKSE.
 
 ## Memory Management
 Create the file skse.ini in Skyrim/Data/SKSE or in ModOrganizer/overwrite/SKSE and copy the following content:
->[General]
+>[General]  
+>ClearInvalidRegistrations=1  
 
->ClearInvalidRegistrations=1
-
->[Memory]
-
->DefaultHeapInitialAllocMB=768
-
+>[Memory]  
+>DefaultHeapInitialAllocMB=768  
 >ScrapHeapSizeMB=256
 
 If the system RAM is 4GB or less you may want to use [Memory Blocks Log](http://www.nexusmods.com/skyrim/mods/50471/?) to find the lowest values for the *Initial Heap Block* and the *ScrapHeapSize*
@@ -50,7 +48,7 @@ If you're going to use an ENB, skip this section, it will be taken care of later
 Now set the *ReservedMemorySize* and *VideoMemorySize* following this [guide](http://wiki.step-project.com/Guide:ENBlocal_INI/Memory)
 
 ## Optional Tools
-You may want to install these optional tools for troobleshooting (read the guides on the mod's pages on how to use them):
+You may want to install these optional tools for troobleshooting :
 
 1. [Save game script cleaner](http://www.nexusmods.com/skyrim/mods/52363/?)
 2. [TES5Edit](http://www.nexusmods.com/skyrim/mods/25859/?)
@@ -188,6 +186,7 @@ Time to start downloading and installing the mods. You'll be doing this through 
 2. [Static Mesh Improvements Mod](http://www.nexusmods.com/skyrim/mods/8655/?)
 
 ##### Extra
+This is only needed for extra animations mod
 1. [xp32 Maximum Skeleton](http://www.nexusmods.com/skyrim/mods/26800/?)
 
 
@@ -264,9 +263,8 @@ Time to start downloading and installing the mods. You'll be doing this through 
 5. [LoS and TaVE Villages](http://www.nexusmods.com/skyrim/mods/27395/?)
 
 ### Weather
-TODO: Add detailed descriptions on the installation of these mods
 
-1. [Climates of Tamriel v3.1](http://www.nexusmods.com/skyrim/mods/17802/?)
+1. [Climates of Tamriel v3.1](http://www.nexusmods.com/skyrim/mods/17802/?) :  Only the Weather module.
 2. [Expanded Snow System](http://www.nexusmods.com/skyrim/mods/28110/?)
 3. [Supreme and Volumetric Fog](http://www.nexusmods.com/skyrim/mods/24460/?)
 4. [Supreme Storms](http://www.nexusmods.com/skyrim/mods/27022/?)
@@ -291,7 +289,7 @@ TODO: Add detailed descriptions on the installation of these mods
 5. [Skyrim Project Optimization](http://www.nexusmods.com/skyrim/mods/32505/?)
 
 ### Sound
-if you install *Audio Overhaul for Skyrim*, skip the rest.
+if you install *Audio Overhaul for Skyrim*, skip the rest. Remember the SoS patches for CoT.
 
 1. [Audio Overhaul for Skyrim](http://www.nexusmods.com/skyrim/mods/43773/?)  
 OR  
@@ -332,7 +330,7 @@ OR
 2. [Duel Combat Realism](http://www.nexusmods.com/skyrim/mods/2700/?)
 3. [Revenge of the Enemies](http://www.nexusmods.com/skyrim/mods/40491/?)
 
-There are different choices for a perk overhaul mod:
+There are different choices for a perk overhaul:
 + SPERG
 + T3nd0's Skyrim Redone
 + T3nd0's Perkus Maximus
@@ -359,7 +357,7 @@ This *modpack* uses **Ordinator** by ***EnaiSiaion***
 
 ## ENB
 
->ENBSeries is 3d graphic modification for games...It work by modifying render functions calls of the games and applying additional effects.
+>ENBSeries is 3d graphic modification for games...It works by modifying render functions calls of the games and applying additional effects.
 
 From [enbdev.com](http://enbdev.com/) you can download the base software, while on the Nexus you will find the user's presets.
 
@@ -395,7 +393,7 @@ If you use VSync
 Remember to check the in-game brightness. You'll probably need to lower it down.
 
 ## Finalization
-These tools has to be launched though MO, so you must add them as executable. This is done by right-clicking the files (you find in the *Data* tab) and selecting *Add as Executable*
+These tools has to be launched through MO, so you must add them as executables. This is done by right-clicking the files (you find in the *Data* tab) and selecting *Add as Executable*
 
 1. FNIS (and related mods) : tools/GenerateFNIS_for_Users/*GenerateFNISforUsers.exe*  
 2. LOOT
@@ -448,3 +446,5 @@ You may want to set higher values for shadow resolution, rendering distance etc.
 ## The Game
 If taking the vanilla start, configure all the mods through the in-game MCM Menu after you enter the fort with Hadvar or Ralof.
 For every other start, as soon as you leave the initial cell.
+
+# Have Fun !
