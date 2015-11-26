@@ -6,8 +6,8 @@ For the gameplay overhauls, this is centered around the use of [***EnaiSiaion***
 ## Prerequisites
 1. RAM >= 4GB
 2. VRAM >= 2GB
-3. HDD space available >= 60 GB (14 GB Skyrim, 20+-GB Compressed Mods, 35+-GB Installed Mods)
-4. An original copy of TESV: Skyrim Legendary Edition
+3. HDD space available >= 70 GB (14 GB Skyrim, 20+-GB Compressed Mods, 35+-GB Installed Mods)
+4. An original copy of TES V: Skyrim Legendary Edition
 
 ## First Steps
 1. Download Skyrim from Steam; English language would be better (it makes sure not to come across translation related bugs).
@@ -23,7 +23,7 @@ Always launch the game through MO selecting SKSE.
 2. Set MO to manage archives.
 
 ## Memory Management
-Create the file skse.ini in Skyrim/Data/SKSE or in ModOrganizer/overwrite/SKSE and copy the following content:
+Create the file skse.ini in Skyrim/Data/SKSE or in **ModOrganizer/overwrite/SKSE** and copy the following content:
 >[General]  
 >ClearInvalidRegistrations=1  
 
@@ -31,7 +31,7 @@ Create the file skse.ini in Skyrim/Data/SKSE or in ModOrganizer/overwrite/SKSE a
 >DefaultHeapInitialAllocMB=768  
 >ScrapHeapSizeMB=256
 
-If the system RAM is 4GB or less you may want to use [Memory Blocks Log](http://www.nexusmods.com/skyrim/mods/50471/?) to find the lowest values for the *Initial Heap Block* and the *ScrapHeapSize*
+If the system RAM is 4GB or less you may want to use [Memory Blocks Log](http://www.nexusmods.com/skyrim/mods/50471/?) to find the lowest values for the *Initial Heap Block* and the *ScrapHeapSize*.
 
 ## ENBoost
 
@@ -279,7 +279,7 @@ This is only needed for extra animations mod
 1. [Smoking Torches and Candles](http://www.nexusmods.com/skyrim/mods/35819/?)
 2. [Better Torches](http://www.nexusmods.com/skyrim/mods/27443/?)
 3. [Wet And Cold](http://www.nexusmods.com/skyrim/mods/27563/?)
-4. [Enhanced Lights and FX](http://www.nexusmods.com/skyrim/mods/27043/?) OR [Realistic Lighting Overhaul](http://www.nexusmods.com/skyrim/mods/30450/?) OR [Enhanced Lighting for ENB](http://www.nexusmods.com/skyrim/mods/59733/?) + [Relighting Skyrim](http://www.nexusmods.com/skyrim/mods/17609/?)
+4. [Enhanced Lights and FX](http://www.nexusmods.com/skyrim/mods/27043/?) OR [Realistic Lighting Overhaul](http://www.nexusmods.com/skyrim/mods/30450/?) OR [Enhanced Lighting for ENB (ELE)](http://www.nexusmods.com/skyrim/mods/59733/?) + [Relighting Skyrim](http://www.nexusmods.com/skyrim/mods/17609/?)
 
 ### Visual and Performance Fixes
 1. [Skyrim Performance Plus](http://www.nexusmods.com/skyrim/mods/6387/?)
@@ -301,9 +301,8 @@ OR
 7. [Hearth of the Beast - WereWolves Sounds and Textures](http://www.nexusmods.com/skyrim/mods/13779/?)
 
 ##### Extra
-1. [Fantasy Soundtrack Project](http://www.nexusmods.com/skyrim/mods/46518/?)
-2. [Celtic Music in Skyrim](http://www.nexusmods.com/skyrim/mods/53689/?)
-3. [Ultra Realistic Bow Sounds](http://www.nexusmods.com/skyrim/mods/27208/?)
+1. [Fantasy Soundtrack Project](http://www.nexusmods.com/skyrim/mods/46518/?) OR [Celtic Music in Skyrim](http://www.nexusmods.com/skyrim/mods/53689/?)
+2. [Ultra Realistic Bow Sounds](http://www.nexusmods.com/skyrim/mods/27208/?)
 
 ## Gameplay
 
