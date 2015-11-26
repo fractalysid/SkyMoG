@@ -1,7 +1,7 @@
 # Skyrim Modding Guide
 
 Welcome to my personal modding guide. It is divided in sections and every modification and or installation must be performed following this order.
-For the gameplay overhauls, this is centered around the use of [***EnaiSiaion***](http://www.nexusmods.com/skyrim/users/3959191/?) mods (remember to give him a kudo!). With a few changes and additions, it can be adapted to Perkus Maximus and Requiem.
+For the gameplay overhauls, this is centered around the use of [***EnaiSiaion***](http://www.nexusmods.com/skyrim/users/3959191/?) mods (remember to give him a kudo!). With a few changes and additions, it can be adapted to Perkus Maximus, Requiem or whatever you prefer.
 
 ## Prerequisites
 1. RAM >= 4GB
@@ -83,6 +83,7 @@ Time to start downloading and installing the mods. You'll be doing this through 
 17. [Jaxon Smart Looter](http://www.nexusmods.com/skyrim/mods/52927/?)
 18. [Player Headtracking](http://www.nexusmods.com/skyrim/mods/23600/?)
 19. [Realistic Ragdolls and Force](http://www.nexusmods.com/skyrim/mods/601/?)
+19. [XP32 Maximum Skeleton](http://www.nexusmods.com/skyrim/mods/26800/?)
 20. [The Skyrim Distance Overhaul](http://www.nexusmods.com/skyrim/mods/19446/?)
 21. [VioLens a Killmove Mod](http://www.nexusmods.com/skyrim/mods/56980/?)
 22. [Brawl Bugs Patch](http://www.nexusmods.com/skyrim/mods/24020/?)
@@ -105,7 +106,7 @@ Time to start downloading and installing the mods. You'll be doing this through 
 1. [Marriable Serana](http://www.nexusmods.com/skyrim/mods/28685/?)
 2. [The Paarthurnax Dilemma](http://www.nexusmods.com/skyrim/mods/18465/?)
 3. [DYNAVISION](http://www.nexusmods.com/skyrim/mods/12525/?)
-4. [Imaginator](http://www.nexusmods.com/skyrim/mods/13049/?)
+4. [Imaginator](http://www.nexusmods.com/skyrim/mods/13049/?)  
 5. [FNIS](http://www.nexusmods.com/skyrim/mods/11811/?)
 6. [FNIS Sexy Moves](http://www.nexusmods.com/skyrim/mods/54521/?)
 7. [FNIS PCEA2](http://www.nexusmods.com/skyrim/mods/71055/?)
@@ -184,11 +185,6 @@ Time to start downloading and installing the mods. You'll be doing this through 
 ### Meshes
 1. [Ruins Clutter Improved](http://www.nexusmods.com/skyrim/mods/14227/?)
 2. [Static Mesh Improvements Mod](http://www.nexusmods.com/skyrim/mods/8655/?)
-
-##### Extra
-This is only needed for extra animations mod
-1. [xp32 Maximum Skeleton](http://www.nexusmods.com/skyrim/mods/26800/?)
-
 
 #### Textures
 
