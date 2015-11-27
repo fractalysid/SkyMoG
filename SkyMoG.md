@@ -400,7 +400,8 @@ Look at [these](https://www.youtube.com/watch?v=xSY52G8ggYM&list=LLM2HCq9mb6phY5
 
 Nexus [ENB Presets](http://www.nexusmods.com/skyrim/mods/searchresults/?src_cat=97). A few presets are in [this](http://www.nexusmods.com/skyrim/mods/searchresults/?src_cat=62) category.
 
-I suggest you to read the ENB preset page of your choice and follow the installation guide; anyway these are the common steps:
+I suggest you to read the ENB preset page of your choice and follow the installation guide; anyway these are the common steps:  
+
 1. Download the proper ENB version from [enbdev](http://enbdev.com/)
 2. Copy the *d3d9.dll* and *enbhost.exe* from the *Wrapper Version* folder inside the Skyrim folder (where you find the launcher and executable)
 3. Add the mod in MO, it may come with various fixes.
