@@ -442,7 +442,7 @@ To skip the intro sequence:
 > sIntroSequence=1
 
 *Skyrim Flora Overhaul* and grass mods  
-Increase *iMinGrassSize* for extra performance (100), lower it to get higher grass density (60)
+Increase *iMinGrassSize* for extra performance (100), lower it to get higher grass density (60). Also decrease *iMaxGrassTypesPPerTexure* (7) if you're having low FPS.
 
 >[Grass]  
 >bAllowCreateGrass=1  
@@ -450,15 +450,12 @@ Increase *iMinGrassSize* for extra performance (100), lower it to get higher gra
 >iMaxGrassTypesPerTexure=15  
 >iMinGrassSize=70
 
-Now you have to set the uGridsToLoad setting that represents the radius inside of which all the objects will be loaded.
+Now you have to set the uGridsToLoad setting that represents the radius inside of which all the objects will be loaded with full details.
 
 >[General]  
->uExterior Cell Buffer=(X+1)²  
->uInterior Cell Buffer=(X+1)²/2  
 >uGridsToLoad=X
 
-X must be an odd value greater than 1 (7 is default). The greater the value the greater the distance at which objects are loaded, thus more RAM and CPU usage and longer loading times. The values for the exterior and interior cell buffers refers to the suggested minimum, so you're free to use greater values.
-If you intend to use a value greater than 11, I suggest the use of [Stable uGridsToLoad](http://www.nexusmods.com/skyrim/mods/41592/?). Install this after the unofficial patches.  
+X must be an odd value greater than 1 (7 is default). The greater the value the greater the distance at which objects are loaded, thus more RAM and CPU usage and longer loading times.  If you intend to use a value greater than 11, I suggest the use of [Stable uGridsToLoad](http://www.nexusmods.com/skyrim/mods/41592/?). Install this after the unofficial patches.  
 Take in mind that you can freely increase it, but if you decrease it and try to load a game saved with a greater value, the client will crash.
 In that case, you should set the value to the that in use when the savegame was created. Load the game, open the console and type:
 >setini "uGridsToLoad:new_lower_value"  
