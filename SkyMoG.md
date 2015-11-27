@@ -40,6 +40,7 @@ If you're going to use an ENB, skip this section, it will be taken care of later
 
 >[GLOBAL]  
 >UsePatchSpeedhackWithoutGraphics=true  
+>UseDefferedRendering=false  
 >
 >[MEMORY]  
 >ExpandSystemMemoryX64=false  
@@ -104,7 +105,6 @@ Time to start downloading and installing the mods. You'll be doing this through 
 
 ##### Extra
 1. [Marriable Serana](http://www.nexusmods.com/skyrim/mods/28685/?)
-2. [The Paarthurnax Dilemma](http://www.nexusmods.com/skyrim/mods/18465/?)
 3. [DYNAVISION](http://www.nexusmods.com/skyrim/mods/12525/?)
 4. [Imaginator](http://www.nexusmods.com/skyrim/mods/13049/?)  
 5. [FNIS](http://www.nexusmods.com/skyrim/mods/11811/?)
@@ -183,7 +183,7 @@ Time to start downloading and installing the mods. You'll be doing this through 
 17. [WarHammer Sorceress Robes](http://www.nexusmods.com/skyrim/mods/53705/?)
 4. [Whatever you like](http://www.nexusmods.com/skyrim/mods/searchresults/?src_cat=54)
 
-##### Extra Witcher
+##### Extra From The Witcher
 1. [Geralt Light Armor](http://www.nexusmods.com/skyrim/mods/6006/?)
 2. [Iorveth Light Armor](http://www.nexusmods.com/skyrim/mods/5644/?)
 3. [Ciri's Outfit](http://www.nexusmods.com/skyrim/mods/68950/?)
@@ -203,6 +203,7 @@ Time to start downloading and installing the mods. You'll be doing this through 
 4. [The Gray Cowl of Nocturnal](http://www.nexusmods.com/skyrim/mods/64651/?)
 5. [Amorous Adventures](http://www.nexusmods.com/skyrim/mods/70495/?)
 6. [The Notice Board](http://www.nexusmods.com/skyrim/mods/70142/?)
+7. [The Paarthurnax Dilemma](http://www.nexusmods.com/skyrim/mods/18465/?)
 
 ##### Extra
 1. [Better Falskaar and Wyrmstooth Maps ](http://www.nexusmods.com/skyrim/mods/51339/?)
@@ -261,6 +262,7 @@ Time to start downloading and installing the mods. You'll be doing this through 
 12. [Book Covers Skyrim](http://www.nexusmods.com/skyrim/mods/35399/?)
 13. [HiRes Legible Road Signs](http://www.nexusmods.com/skyrim/mods/436/?)
 14. [Ultra HD Firewood](http://www.nexusmods.com/skyrim/mods/71267/?)
+15. [Gemlings Queen Dragon Claws](http://www.nexusmods.com/skyrim/mods/51769/?)
 
 ###### Extra Parallax Textures
 1. [Tamriel Reloaded](http://www.nexusmods.com/skyrim/mods/46925/?)
@@ -326,11 +328,11 @@ OR
 3. [SoS - Civilization](http://www.nexusmods.com/skyrim/mods/20193/?)
 4. [Improved Combat Sounds](http://www.nexusmods.com/skyrim/mods/5289/?) OR [Immersive Sounds - Compendium](http://www.nexusmods.com/skyrim/mods/54387/?)
 6. [Better Animals Footsteps](http://www.nexusmods.com/skyrim/mods/24805/?)
-7. [Hearth of the Beast - WereWolves Sounds and Textures](http://www.nexusmods.com/skyrim/mods/13779/?)
 
 ##### Extra
 1. [Fantasy Soundtrack Project](http://www.nexusmods.com/skyrim/mods/46518/?) OR [Celtic Music in Skyrim](http://www.nexusmods.com/skyrim/mods/53689/?)
 2. [Ultra Realistic Bow Sounds](http://www.nexusmods.com/skyrim/mods/27208/?)
+3. [Hearth of the Beast - WereWolves Sounds and Textures](http://www.nexusmods.com/skyrim/mods/13779/?)
 
 ## Gameplay
 
