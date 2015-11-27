@@ -119,6 +119,7 @@ Time to start downloading and installing the mods. You'll be doing this through 
 3. [Apachi SkyHair](http://www.nexusmods.com/skyrim/mods/10168/?)
 4. [Female Facial Animations](http://www.nexusmods.com/skyrim/mods/35303/?)
 5. [KS Hairdos Renewal](http://www.nexusmods.com/skyrim/mods/68311/?)
+5. [KS Hairdos - HDT Physics](http://www.nexusmods.com/skyrim/mods/70363/?)
 6. [Lovely Hairstyles](http://www.nexusmods.com/skyrim/mods/7403/?)
 7. [Superior Lore Friendly Hair](http://www.nexusmods.com/skyrim/mods/36510/?)
 8. [SG Female Eyebrows](http://www.nexusmods.com/skyrim/mods/35327/?)
@@ -132,6 +133,10 @@ Time to start downloading and installing the mods. You'll be doing this through 
 16. [Smile in HD](http://www.nexusmods.com/skyrim/mods/34346/?)
 17. [Better Makeup for SKSE](http://www.nexusmods.com/skyrim/mods/31665/?)
 18. [No More Ugly Bronze Shiny](http://www.nexusmods.com/skyrim/mods/71054/?)
+19. [Feminine Hands](http://www.nexusmods.com/skyrim/mods/49285/?)
+20. [High Resolution Scars](http://www.nexusmods.com/skyrim/mods/4784/?)
+21. [Detailed Lips](http://www.nexusmods.com/skyrim/mods/689/?)
+22. [FemFeet Redesigned](http://www.nexusmods.com/skyrim/mods/37022/?)
 
 ##### Extra
 1. [SG Female Textures Renewal](http://www.nexusmods.com/skyrim/mods/35267/?)
@@ -143,9 +148,15 @@ Time to start downloading and installing the mods. You'll be doing this through 
 4. [Interesting NPCs](http://www.nexusmods.com/skyrim/mods/8429/?)
 5. [Inconsequential NPCs](http://www.nexusmods.com/skyrim/mods/36334/?)
 
+##### Extra
+1. [Seranaholic](http://www.nexusmods.com/skyrim/mods/38326/?) OR [Seductress Serana](http://www.nexusmods.com/skyrim/mods/52907/?)
+
 ### Weapons
 1. [Immersive Weapons](http://www.nexusmods.com/skyrim/mods/27644/?)
 2. [LOTR Weapons](http://www.nexusmods.com/skyrim/mods/5727/?)
+
+##### Extra
+1. [The Ice Blade of the Monarch](http://www.nexusmods.com/skyrim/mods/63623/?)
 
 ### Armors
 1. [Caliente's Vanilla Outfits](http://www.nexusmods.com/skyrim/mods/12273/?)
@@ -156,7 +167,28 @@ Time to start downloading and installing the mods. You'll be doing this through 
 1. [nsk13's Armors](http://www.nexusmods.com/skyrim/users/3373573/?tb=mods&pUp=1)
 2. [Dark BrotherHood Shrouded Armor](http://www.nexusmods.com/skyrim/mods/39964/?)
 3. [Tribunal Robes and Masks](http://www.nexusmods.com/skyrim/mods/20077/?)
+4. [Daedric Reaper Armor](http://www.nexusmods.com/skyrim/mods/69138/?)
+5. [Scarlet Dawn Armor](http://www.nexusmods.com/skyrim/mods/50814/?)
+6. [Lustmord Vampire Armor](http://www.nexusmods.com/skyrim/mods/25852/?)
+7. [Nightingale Prime HD](http://www.nexusmods.com/skyrim/mods/28899/?)
+8. [Contractor and Mavari Armors](http://www.nexusmods.com/skyrim/mods/38386/?)
+9. [Medusa and Drakul Armors](http://www.nexusmods.com/skyrim/mods/31229/?)
+10. [Midnight Breed Armor](http://www.nexusmods.com/skyrim/mods/53697/?)
+11. [Misfit Mage UNP](http://www.nexusmods.com/skyrim/mods/36780/?)
+12. [Blood Witch Armor](http://www.nexusmods.com/skyrim/mods/21572/?)
+13. [Armor of Intrigue](http://www.nexusmods.com/skyrim/mods/36875/?)
+14. [Sorceress Armors](http://www.nexusmods.com/skyrim/mods/48446/?)
+15. [Daedric Assassins Armor](http://www.nexusmods.com/skyrim/mods/16103/?)
+16. [Selene Outfits](http://www.nexusmods.com/skyrim/mods/48077/?)
+17. [WarHammer Sorceress Robes](http://www.nexusmods.com/skyrim/mods/53705/?)
 4. [Whatever you like](http://www.nexusmods.com/skyrim/mods/searchresults/?src_cat=54)
+
+##### Extra Witcher
+1. [Geralt Light Armor](http://www.nexusmods.com/skyrim/mods/6006/?)
+2. [Iorveth Light Armor](http://www.nexusmods.com/skyrim/mods/5644/?)
+3. [Ciri's Outfit](http://www.nexusmods.com/skyrim/mods/68950/?)
+4. [Philippa Eilhart Dress](http://www.nexusmods.com/skyrim/mods/36738/?)
+5. [Yennefer and Triss Armors](http://www.nexusmods.com/skyrim/mods/69007/?)
 
 ### Creatures
 1. [Skyrim Immersive Creatures](http://www.nexusmods.com/skyrim/mods/24913/?)
@@ -349,6 +381,9 @@ This *modpack* uses **Ordinator** by ***EnaiSiaion***
 11. [More Apocalypse](http://www.nexusmods.com/skyrim/mods/65527/?)
 12. Apocalypse Ordinator Patch (in the Apocalypse Page)
 13. [Forgotten Magic Redone](http://www.nexusmods.com/skyrim/mods/35339/?)
+
+##### Extra
+1. [Magic Duel Reborn](http://www.nexusmods.com/skyrim/mods/34583/?)
 
 ## ENB
 
