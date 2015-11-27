@@ -304,6 +304,7 @@ Time to start downloading and installing the mods. You'll be doing this through 
 
 ##### Extra
 1. [Realistic Sun](http://www.nexusmods.com/skyrim/mods/42492/?)
+2. [Falskaar - CoT Patch](http://www.nexusmods.com/skyrim/mods/38361/?)
 
 ### Visual and Graphics
 1. [Smoking Torches and Candles](http://www.nexusmods.com/skyrim/mods/35819/?)
@@ -317,6 +318,7 @@ Time to start downloading and installing the mods. You'll be doing this through 
 3. [Distant Decal Fix](http://www.nexusmods.com/skyrim/mods/32426/?)
 4. [Revamped Exterior Fog](http://www.nexusmods.com/skyrim/mods/9930/?)
 5. [Skyrim Project Optimization](http://www.nexusmods.com/skyrim/mods/32505/?)
+6. [Unofficial Enhanced Lights and FX ELFX SMIM ENB fps performance patch](http://www.nexusmods.com/skyrim/mods/60603/?)
 
 ### Sound
 if you install *Audio Overhaul for Skyrim*, skip the rest. Remember the SoS patches for CoT.
