@@ -408,7 +408,7 @@ I suggest you to read the ENB preset page of your choice and follow the installa
 4. Copy the presets files inside the Skyrim folder.
 5. Modify **enblocal.ini** to properly set the memory values ([here](http://wiki.step-project.com/Guide:ENBlocal_INI) you can find an in-depth explanation of every setting)
 6. Install (always through MO) [these fixes](http://enbseries.enbdev.com/forum/viewtopic.php?f=6&t=1499) (the first 4 are mandatory)
-7. Make sure you have these settings in the INIs
+7. Make sure you have these settings in the INIs (Use Mod Organizer's internal editor to modify the INIs.)
 
 **Skyrim.ini**  
 If you use VSync
@@ -436,6 +436,8 @@ These tools has to be launched through MO, so you must add them as executables. 
 4. ASIS : SkyProcPatchers/ASIS/ASIS.jar
 
 ## INI Settings
+Use Mod Organizer's internal editor to modify the INIs.
+
 **Skyrim.ini**  
 
 To skip the intro sequence:
