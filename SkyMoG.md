@@ -411,7 +411,7 @@ I suggest you to read the ENB preset page of your choice and follow the installa
 7. Make sure you have these settings in the INIs (Use Mod Organizer's internal editor to modify the INIs.)
 
 **Skyrim.ini**  
-If you use VSync
+If you use VSync (otherwise set it to 0)
 >[Display]  
 >iPresentInterval=1
 
@@ -444,8 +444,13 @@ To skip the intro sequence:
 >[General]  
 > sIntroSequence=1
 
+This sets the maximum number of hardware threads the game can use.
+>[General]  
+>iNumHWThreads= Number of logical cores  
+
+
 *Skyrim Flora Overhaul* and grass mods  
-Increase *iMinGrassSize* for extra performance (100), lower it to get higher grass density (60). Also decrease *iMaxGrassTypesPPerTexure* (7) if you're having low FPS.
+Increase *iMinGrassSize* for extra performance (100), lower it to get higher grass density (60). Also decrease *iMaxGrassTypesPerTexure* (7) if you're having low FPS.
 
 >[Grass]  
 >bAllowCreateGrass=1  
@@ -456,9 +461,11 @@ Increase *iMinGrassSize* for extra performance (100), lower it to get higher gra
 Now you have to set the uGridsToLoad setting that represents the radius inside of which all the objects will be loaded with full details.
 
 >[General]  
+>uExterior Cell Buffer=(X+1)^2  
+>uInterior Cell Buffer=(X+1)^2/2  
 >uGridsToLoad=X
 
-X must be an odd value greater than 1 (7 is default). The greater the value the greater the distance at which objects are loaded, thus more RAM and CPU usage and longer loading times.  If you intend to use a value greater than 11, I suggest the use of [Stable uGridsToLoad](http://www.nexusmods.com/skyrim/mods/41592/?). Install this after the unofficial patches.  
+X must be an odd value greater than 1 (7 is default). The greater the value the greater the distance at which objects are loaded, thus more RAM and CPU usage and longer loading times.  If you intend to use a value greater than 11, I suggest the use of [Stable uGridsToLoad](http://www.nexusmods.com/skyrim/mods/41592/?). Install this after the unofficial patches. The settings *uExterior Cell Buffer* and *uInterior Cell Buffer* are optional, they specify the number of cells that are buffered to RAM.  
 Take in mind that you can freely increase it, but if you decrease it and try to load a game saved with a greater value, the client will crash.
 In that case, you should set the value to the that in use when the savegame was created. Load the game, open the console and type:
 >setini "uGridsToLoad:new_lower_value"  
@@ -467,6 +474,11 @@ In that case, you should set the value to the that in use when the savegame was 
 
 Then save the game.
 
+It speeds up the book-opening animation.
+>[Interface]  
+>fBookOpenTime=200.0
+
+
 **Skyrimprefs.ini**
 
 Set to 0 to get clear water
@@ -474,8 +486,8 @@ Set to 0 to get clear water
 >bDoDepthOfField=1
 
 ---
-For a greater understanding of skyrim settings, read [this](http://wiki.step-project.com/Guide:Skyrim_Configuration_Settings).
-You may want to set higher values for shadow resolution, rendering distance etc...
+For a finer tuning of Skyrim settings, follow [this guide](http://wiki.step-project.com/Guide:Skyrim_Configuration_Settings).  
+
 
 ## The Game
 If taking the vanilla start, configure all the mods through the in-game MCM Menu after you enter the fort with Hadvar or Ralof.
