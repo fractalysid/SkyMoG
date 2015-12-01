@@ -161,6 +161,7 @@ Time to start downloading and installing the mods. You'll be doing this through 
 1. [Caliente's Vanilla Outfits](http://www.nexusmods.com/skyrim/mods/12273/?)
 2. [Immersive Armors](http://www.nexusmods.com/skyrim/mods/19733/?)
 3. [Cloaks of Skyrim](http://www.nexusmods.com/skyrim/mods/12092/?)
+4. [Bandolier - Bags and Pouches](http://www.nexusmods.com/skyrim/mods/16438/?)
 
 ##### Extra
 1. [nsk13's Armors](http://www.nexusmods.com/skyrim/users/3373573/?tb=mods&pUp=1)
