@@ -135,7 +135,6 @@ Time to start downloading and installing the mods. You'll be doing this through 
 18. [No More Ugly Bronze Shiny](http://www.nexusmods.com/skyrim/mods/71054/?)
 19. [Feminine Hands](http://www.nexusmods.com/skyrim/mods/49285/?)
 20. [High Resolution Scars](http://www.nexusmods.com/skyrim/mods/4784/?)
-21. [Detailed Lips](http://www.nexusmods.com/skyrim/mods/689/?)
 22. [FemFeet Redesigned](http://www.nexusmods.com/skyrim/mods/37022/?)
 
 ##### Extra
@@ -372,8 +371,7 @@ There are different choices for a perk overhaul:
 This *modpack* uses **Ordinator** by ***EnaiSiaion***
 
 ### Perks and Magic
-1. [Spectraverse](http://www.nexusmods.com/skyrim/mods/53780/?)
-2. [Dwemertech](http://www.nexusmods.com/skyrim/mods/56037/?)
+
 3. [Wintermyst](http://www.nexusmods.com/skyrim/mods/58635/?)
 4. [Aurora](http://www.nexusmods.com/skyrim/mods/29311/?)
 5. [Imperious](http://www.nexusmods.com/skyrim/mods/61218/?)
@@ -388,6 +386,8 @@ This *modpack* uses **Ordinator** by ***EnaiSiaion***
 
 ##### Extra
 1. [Magic Duel Reborn](http://www.nexusmods.com/skyrim/mods/34583/?)
+2. [Spectraverse](http://www.nexusmods.com/skyrim/mods/53780/?)
+3. [Dwemertech](http://www.nexusmods.com/skyrim/mods/56037/?)
 
 ## ENB
 
