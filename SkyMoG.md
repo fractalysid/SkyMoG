@@ -307,10 +307,11 @@ Time to start downloading and installing the mods. You'll be doing this through 
 2. [Falskaar - CoT Patch](http://www.nexusmods.com/skyrim/mods/38361/?)
 
 ### Visual and Graphics
-1. [Smoking Torches and Candles](http://www.nexusmods.com/skyrim/mods/35819/?)
-2. [Better Torches](http://www.nexusmods.com/skyrim/mods/27443/?)
-3. [Wet And Cold](http://www.nexusmods.com/skyrim/mods/27563/?)
-4. [Enhanced Lights and FX](http://www.nexusmods.com/skyrim/mods/27043/?) OR [Realistic Lighting Overhaul](http://www.nexusmods.com/skyrim/mods/30450/?) OR [Enhanced Lighting for ENB (ELE)](http://www.nexusmods.com/skyrim/mods/59733/?) + [Relighting Skyrim](http://www.nexusmods.com/skyrim/mods/17609/?)
+1. [Enhanced Lights and FX](http://www.nexusmods.com/skyrim/mods/27043/?) OR [Realistic Lighting Overhaul](http://www.nexusmods.com/skyrim/mods/30450/?) OR [Enhanced Lighting for ENB (ELE)](http://www.nexusmods.com/skyrim/mods/59733/?) + [Relighting Skyrim](http://www.nexusmods.com/skyrim/mods/17609/?)  
+2. [Smoking Torches and Candles](http://www.nexusmods.com/skyrim/mods/35819/?)
+3. [Better Torches](http://www.nexusmods.com/skyrim/mods/27443/?)
+4. [Wet And Cold](http://www.nexusmods.com/skyrim/mods/27563/?)
+
 
 ### Visual and Performance Fixes
 1. [Skyrim Performance Plus](http://www.nexusmods.com/skyrim/mods/6387/?)
