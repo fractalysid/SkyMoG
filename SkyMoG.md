@@ -132,7 +132,7 @@ Time to start downloading and installing the mods. You'll be doing this through 
 14. [Better Females By Bella](http://www.nexusmods.com/skyrim/mods/2812/?) OR [Better Females By Bella - Natural Edition](http://www.nexusmods.com/skyrim/mods/26113/?)
 16. [Smile in HD](http://www.nexusmods.com/skyrim/mods/34346/?)
 17. [Better Makeup for SKSE](http://www.nexusmods.com/skyrim/mods/31665/?)
-18. [No More Ugly Bronze Shiny](http://www.nexusmods.com/skyrim/mods/71054/?)
+18. [No More Ugly Bronze Shiny](http://www.nexusmods.com/skyrim/mods/29791/?)
 19. [Feminine Hands](http://www.nexusmods.com/skyrim/mods/49285/?)
 20. [High Resolution Scars](http://www.nexusmods.com/skyrim/mods/4784/?)
 22. [FemFeet Redesigned](http://www.nexusmods.com/skyrim/mods/37022/?)
