@@ -218,8 +218,7 @@ Time to start downloading and installing the mods. You'll be doing this through 
 1. [Ruins Clutter Improved](http://www.nexusmods.com/skyrim/mods/14227/?)
 2. [Static Mesh Improvements Mod](http://www.nexusmods.com/skyrim/mods/8655/?)
 
-#### Textures
-
+### Textures  
 1. [Skyrim HD 2K](http://www.nexusmods.com/skyrim/mods/607/?)
 2. [SkyRealism - Shiny](http://www.nexusmods.com/skyrim/mods/48526/?)
 3. [aMidianBorn Book of Silence](http://www.nexusmods.com/skyrim/mods/24909/?)
@@ -390,11 +389,11 @@ This *modpack* uses **Ordinator** by ***EnaiSiaion***
 2. [Spectraverse](http://www.nexusmods.com/skyrim/mods/53780/?)
 3. [Dwemertech](http://www.nexusmods.com/skyrim/mods/56037/?)
 
-## ENB
+### ENB
 
 >ENBSeries is 3d graphic modification for games...It works by modifying render functions calls of the games and applying additional effects.
 
-From [enbdev.com](http://enbdev.com/) you can download the base software, while on the Nexus you will find the user's presets.
+From [enbdev.com](http://enbdev.com/download_mod_tesskyrim.htm) you can download the base software, while on the Nexus you will find the user's presets.
 
 Here is all about tastes. My choice, to use with CoT and ELFX or RLO, is [True Vision ENB](http://www.nexusmods.com/skyrim/mods/15983/?), but it is not really performance friendly (it also makes use of SweetFX).  
 Look at [these](https://www.youtube.com/watch?v=xSY52G8ggYM&list=LLM2HCq9mb6phY5yBYHZcwVQ&index=2) [videos](https://www.youtube.com/watch?v=ss_DFC2CSpQ&list=LLM2HCq9mb6phY5yBYHZcwVQ&index=1) to get an idea.
@@ -466,7 +465,7 @@ Now you have to set the uGridsToLoad setting that represents the radius inside o
 >uInterior Cell Buffer=(X+1)^2/2  
 >uGridsToLoad=X
 
-X must be an odd value greater than 1 (7 is default). The greater the value the greater the distance at which objects are loaded, thus more RAM and CPU usage and longer loading times.  If you intend to use a value greater than 11, I suggest the use of [Stable uGridsToLoad](http://www.nexusmods.com/skyrim/mods/41592/?). Install this after the unofficial patches. The settings *uExterior Cell Buffer* and *uInterior Cell Buffer* are optional, they specify the number of cells that are buffered to RAM.  
+X must be an odd value greater than 1 (5 recommended). The greater the value the greater the distance at which objects are loaded, thus more RAM and CPU usage and longer loading times.  If you intend to use a value greater than 11, I suggest the use of [Stable uGridsToLoad](http://www.nexusmods.com/skyrim/mods/41592/?). Install this after the unofficial patches. The settings *uExterior Cell Buffer* and *uInterior Cell Buffer* are optional, they specify the number of cells that are buffered to RAM.  
 Take in mind that you can freely increase it, but if you decrease it and try to load a game saved with a greater value, the client will crash.
 In that case, you should set the value to the that in use when the savegame was created. Load the game, open the console and type:
 >setini "uGridsToLoad:new_lower_value"  
