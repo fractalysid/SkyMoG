@@ -73,7 +73,6 @@ Time to start downloading and installing the mods. You'll be doing this through 
 6. [ASIS Improved INIs](http://www.nexusmods.com/skyrim/mods/53047/?)
 7. [Better Dialogue Controls](http://www.nexusmods.com/skyrim/mods/27371/?)
 8. [Better Message Box Controls](http://www.nexusmods.com/skyrim/mods/28170/?)
-9. [Dual Sheat Redux](http://www.nexusmods.com/skyrim/mods/34155/?)
 10. [Enhanced Camera](http://www.nexusmods.com/skyrim/mods/57859/?)
 11. [SKYUI](http://www.nexusmods.com/skyrim/mods/3863/?)
 12. [Extended UI](http://www.nexusmods.com/skyrim/mods/57873/?)
@@ -110,6 +109,7 @@ Time to start downloading and installing the mods. You'll be doing this through 
 5. [FNIS](http://www.nexusmods.com/skyrim/mods/11811/?)
 6. [FNIS Sexy Moves](http://www.nexusmods.com/skyrim/mods/54521/?)
 7. [FNIS PCEA2](http://www.nexusmods.com/skyrim/mods/71055/?)
+9. [Dual Sheat Redux](http://www.nexusmods.com/skyrim/mods/34155/?)
 8. [Real Shelter](http://www.nexusmods.com/skyrim/mods/52612/?)
 9. [Immersive HUD](http://www.nexusmods.com/skyrim/mods/3222/?)
 
@@ -132,13 +132,13 @@ Time to start downloading and installing the mods. You'll be doing this through 
 14. [Better Females By Bella](http://www.nexusmods.com/skyrim/mods/2812/?) OR [Better Females By Bella - Natural Edition](http://www.nexusmods.com/skyrim/mods/26113/?)
 16. [Smile in HD](http://www.nexusmods.com/skyrim/mods/34346/?)
 17. [Better Makeup for SKSE](http://www.nexusmods.com/skyrim/mods/31665/?)
-18. [No More Ugly Bronze Shiny](http://www.nexusmods.com/skyrim/mods/29791/?)
 19. [Feminine Hands](http://www.nexusmods.com/skyrim/mods/49285/?)
+18. [No More Ugly Bronze Shiny](http://www.nexusmods.com/skyrim/mods/29791/?)
 20. [High Resolution Scars](http://www.nexusmods.com/skyrim/mods/4784/?)
-22. [FemFeet Redesigned](http://www.nexusmods.com/skyrim/mods/37022/?)
 
 ##### Extra
-1. [SG Female Textures Renewal](http://www.nexusmods.com/skyrim/mods/35267/?)
+1. [FemFeet Redesigned](http://www.nexusmods.com/skyrim/mods/37022/?)
+2. [SG Female Textures Renewal](http://www.nexusmods.com/skyrim/mods/35267/?)
 
 ### NPCs
 1. [Bijin Warmaidens](http://www.nexusmods.com/skyrim/mods/40038/?)
