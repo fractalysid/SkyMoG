@@ -193,8 +193,7 @@ Time to start downloading and installing the mods. You'll be doing this through 
 ### Creatures
 1. [Skyrim Immersive Creatures](http://www.nexusmods.com/skyrim/mods/24913/?)
 2. [SkyTEST - Realistic Animals and Predators](http://www.nexusmods.com/skyrim/mods/10175/?)
-3. [Bellyaches New Dragon Species](http://www.nexusmods.com/skyrim/mods/20889/?)
-4. [Deadly Dragons](http://www.nexusmods.com/skyrim/mods/3829/?)
+3. [Deadly Dragons](http://www.nexusmods.com/skyrim/mods/3829/?)
 
 ### Expansions and Quests
 1. [Falskaar](http://www.nexusmods.com/skyrim/mods/37994/?)
